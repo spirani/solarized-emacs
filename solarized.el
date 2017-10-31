@@ -2191,8 +2191,7 @@ customize the resulting theme."
 ;;;;; smartrep
      `(smartrep-mode-line-active-bg (solarized-color-blend ,green ,s-mode-line-bg 0.2))
 ;;;;; term
-     `(term-default-fg-color ,base0) ;; @deprecated24.3
-     `(term-default-bg-color ,base03) ;; @deprecated24.3
+     `(term ((,class (:foreground ,base0 :background ,base03))))
 ;;;;; vc
      `(vc-annotate-background-mode nil)
      `(vc-annotate-color-map
